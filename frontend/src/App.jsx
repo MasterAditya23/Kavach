@@ -72,7 +72,7 @@ function App() {
     formData.append("file", qrFile)
 
     const response = await fetch(
-      "http://127.0.0.1:8000/api/analyze/qr",
+      "https://kavach-t8q0.onrender.com/api/analyze/qr",
       {
         method: "POST",
         body: formData,
@@ -138,7 +138,7 @@ function App() {
     formData.append("file", apkFile)
 
     const response = await fetch(
-      "http://127.0.0.1:8000/api/analyze/apk",
+      "https://kavach-t8q0.onrender.com/api/analyze/apk",
       {
         method: "POST",
         body: formData,
@@ -190,7 +190,7 @@ function App() {
 
  <button
   onClick={async () => {
-    const response = await fetch("http://127.0.0.1:8000/api/analyze/chat", {
+    const response = await fetch("https://kavach-t8q0.onrender.com/api/analyze/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
