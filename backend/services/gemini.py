@@ -11,7 +11,7 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-MODEL_NAME = "Gemini 3.5 Flash Lite"
+MODEL_NAME = "Gemini 3.7 Flash"
 
 
 def ask_gemini(prompt):
